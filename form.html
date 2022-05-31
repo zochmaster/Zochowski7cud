@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>start</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="ankieta">
+    <form action="mailto:bartlomiej.zochowski@tm1.edu.pl"
+    method="post">
+    <br>
+
+    <label for=imi>Imię: </label>
+    <input type=text name=imi id=imi>
+    <br>
+    <label for=nazw>Nazwisko: </label>
+    <input type=text name=nazw id=nazw>
+    <br>
+    <br>
+    <label id="plec">Płeć: </label>
+    <br>
+    <input type=radio name=plec id=kobieta value=kobieta>
+    <label for=kobieta>Kobieta</label>
+    <br>
+    <input type=radio name=plec id=mezczyzna value=mezczyzna>
+    <label for=mezczyzna>Mężczyzna</label>
+    <br>
+    
+    <input type=radio name=plec id=heli value=heli>
+    <label for=heli>Helikopter bojowy</label>
+    <br>
+    <input type=radio name=plec id=inna value=inna disabled>
+    <label for=inna>Inna</label>
+    <br>
+    <br>
+    <label id=zaint>zainteresowania</label>
+    <br>
+    <input type="checkbox" name=zaint id=muzyka value=muzyka>
+    <label for=muzyka>Muzyka</label>
+    <br>
+    <input type="checkbox" name=zaint id=szychy value=szychy>
+    <label for=szychy>Szachy</label>
+    <br>
+    <input type="checkbox" name=zaint id=komp value=komp>
+    <label for=komp>Komputer</label>
+    <br>
+    <input type="checkbox" name=zaint id=pilka value=pilka>
+    <label for=pilka>Piłka Nożna</label>
+    <br>
+    <br>
+    <label for=pod>Podoba Ci się strona?</label>
+    <select name=pod id=pod>
+        <option value=ta>tak</option>
+        <option value=ni>nie</option>
+    </select>
+    <br><br>
+    <label for=ulub>Twój ulubiony piłkarz?</label>
+    <select name=ulub id=ulub>
+        <option value=lewy>Robert Lewandowski</option>
+        <option value=Messi>Lionel Messi</option>
+        <option value=ronaldo>Cristiano Ronaldo</option>
+        <option value=Mbappe>Kylian Mbappe</option>
+        <option value=Benzema>Karim Benzema</option>
+        <option value=Jorginho>Jorginho</option>
+        <option value=Kante>Ngolo Kante</option>
+    </select>
+        <br>
+
+
+
+
+    <br>
+    <br>
+    <input type="reset" value=wyczysc>
+    <input type="submit" value=wyslij>
+    <br>
+    <br>
+    <br>
+
+
+            </form>
+</div>
+</body>
+</html>
