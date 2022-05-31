@@ -669,7 +669,7 @@ ol{
   }
 }
 @media screen and (max-width: 465px) {
-    .galleryimg{width: 30vw;}
+    .gallery{margin-left: auto;margin-right: auto;}
     #stopka{
         margin-top: 0vh;
     }
