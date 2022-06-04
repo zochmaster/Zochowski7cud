@@ -7,6 +7,7 @@ iframe{
     border-width: 0px;
     width:100%; 
     height:380px;
+    margin-bottom: 5px;
 }
 #ankieta{
     text-align: center;
@@ -144,7 +145,7 @@ background-color: rgba(5, 194, 5, 0.5);
     }
 #main{
     position: absolute;
-    margin-top: -485px;
+    margin-top: -462.5px;
     margin-left: 25%;
     
     padding-top: 20px;
@@ -164,18 +165,8 @@ a{
 }
 
 
-#stopka{
-    grid-area: stopka;
-    margin-left: 10px;
-    margin-right: 10px;
-    
-    text-align: center;
-    font-size: 30px;
-    margin-bottom: 20px; 
 
-}
-#naglo{
-    grid-area: naglo;
+#naglo, #stopka{
     margin-left: 10px;
     margin-right: 10px;
     padding-top: 15px;
@@ -187,6 +178,9 @@ a{
     background-color: rgba(240, 248, 255, 0.5);
     border: honeydew 5px solid;
     border-radius: 15px;
+}
+#stopka{
+    margin-top: 10px;
 }
 #tlo{
     background-image: url(images/tlo.jpg);
@@ -243,7 +237,7 @@ ol{
     }
     #main{
         position: absolute;
-        margin-top: -520px;
+        margin-top: -495px;
         margin-left: 25%;
         
         padding-top: 20px;
@@ -263,7 +257,7 @@ ol{
     #cudy{margin-top: 10px;}
 }
 @media screen and (max-width: 1291px) {
-    #main{margin-top: -510px;}
+    #main{margin-top: -480px;}
 }
 /*koniec pc i początek tabletu*/
 
@@ -393,7 +387,7 @@ ol{
         margin-bottom: 20px; 
 
     }
-    #naglo{
+    #naglo, #stopka{
         grid-area: naglo;
         margin-left: 10px;
         margin-right: 10px;
@@ -554,7 +548,7 @@ ol{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-radius: 15px;
 }
-#naglo{
+#naglo, #stopka{
     margin-left: 10px;
     margin-right: 10px;
     padding-top: 15px;
@@ -655,7 +649,7 @@ a{
 
 
 @media screen and (max-width: 599px) {
-    #naglo{font-size: 6.5vw;}
+    #naglo, #stopka{font-size: 6.5vw;}
 }
 
 
