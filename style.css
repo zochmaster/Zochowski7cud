@@ -1,5 +1,7 @@
 *{font-family: Verdana, Tahoma, sans-serif;}
-
+#gora{
+    display: none;
+}
 
 iframe{
     border-width: 0px;
@@ -191,6 +193,7 @@ a{
     background-repeat: no-repeat;
     background-size: 140vw;
     background-position-x: center;
+    background-attachment: fixed;
  }
 
 
@@ -517,9 +520,19 @@ ol{
 
 
 
-
 @media screen and (max-width: 600px) {
 .galleryimg{width: 35vw;}
+@media screen and (max-height: 800px){
+#gora{
+    display: initial;
+    border: rgba(5, 194, 5, 0.534) 5px solid;
+    background-color: rgba(172, 255, 47, 0.5);
+    border-radius: 15px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    padding: 0px 10px 0px 10px;
+}
+}
 #main{
     border: honeydew 0px solid;
     background-color: rgba(240, 248, 255, 0);
@@ -613,7 +626,7 @@ ol{
 #stopka{
     margin-left: 10px;
     margin-right: 10px;
-    margin-top: 0vh;
+    margin-top: 10px;
     text-align: center;
     font-size: 30px;
     margin-bottom: 20px; 
@@ -658,7 +671,7 @@ a{
     border-radius: 15px;
 }
 #stopka{
-    margin-top: 0vh;
+    margin-top: 10px;
 }
 .imie:hover{
     background-color: rgba(24, 211, 24, 0.75);
@@ -670,19 +683,21 @@ ol{
 }
 @media screen and (max-width: 465px) {
     .gallery{margin-left: auto;margin-right: auto;}
+    
     #stopka{
-        margin-top: 0vh;
+        margin-top: 10px;
     }
 }
 @media screen and (max-width: 445px) {
     #stopka{
-        margin-top: 0vh;
+        margin-top: 10px;
     }
 }
 @media screen and (max-width: 415px) {
     #stopka{
-        margin-top: 0vh;
+        margin-top: 10px;
     }
+   
 }
 
 
@@ -698,22 +713,8 @@ ol{
     .imie{
         font-size: 6.7vw;
     }
-    #cudy{
-        font-size: 8vw;
-    }
-    #stat{
-        font-size: 8vw;
-    }
-    #galer{
-        font-size: 8vw;
-    }
-    #naglo{
-        font-size: 8vw;
-    }
-    #stopka{
-        margin-top: 0vh;
-        font-size: 8vw;
-    }
+    #wsiotel{font-size: 8vw;}
+
     ol{
         font-size: 8vw;
     }
@@ -721,7 +722,7 @@ ol{
 
 @media screen and (max-width: 325px){
     .imie{font-size: 6vh;}
-    #stopka{margin-top: 2vh;}
+    #stopka{margin-top: 10px;}
     td{font-size: 18px;}
 }
 @media screen and (max-width: 305px){
@@ -738,7 +739,7 @@ ol{
 }
 
 @media screen and (max-width: 255px){
-    .galleryimg{width: 40vw;}
+    .galleryimg{width: 70vw;}
     .imie{
         font-size: 8.9vw;
     }
