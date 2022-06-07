@@ -516,7 +516,7 @@ ol{
 
 @media screen and (max-width: 600px) {
 .galleryimg{width: 35vw;}
-@media screen and (max-height: 800px){
+
 #gora{
     display: initial;
     border: rgba(5, 194, 5, 0.534) 5px solid;
@@ -525,7 +525,6 @@ ol{
     margin-bottom: 10px;
     margin-top: 15px;
     padding: 0px 10px 0px 10px;
-}
 }
 #main{
     border: honeydew 0px solid;
