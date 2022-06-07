@@ -2,7 +2,7 @@
 #gora{
     display: none;
 }
-br{display: none;}
+#brr{display: none;}
 iframe{
     border-width: 0px;
     width:100%; 
@@ -516,7 +516,7 @@ ol{
 
 @media screen and (max-width: 600px) {
 .galleryimg{width: 35vw;}
-    br{display: initial;}
+#brr{display: initial;}
 #gora{
     display: initial;
     border: rgba(5, 194, 5, 0.534) 5px solid;
