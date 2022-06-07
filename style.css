@@ -623,8 +623,9 @@ ol{
     text-align: center;
     font-size: 30px;
     margin-bottom: 20px; 
-    border: rgba(5, 194, 5, 0.534) 5px solid;
-    background-color: rgba(172, 255, 47, 0.5);
+    font-family: 'Courier New';
+    background-color: rgba(240, 248, 255, 0.5);
+    border: honeydew 5px solid;
     border-radius: 15px;
 }
 
